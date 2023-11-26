@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<soap11env:Envelope xmlns:soap11env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="your.namespace.here">
+    <soap11env:Body>
+        <tns:list_booksResponse>
+            <tns:list_booksResult>
+                <tns:string>The Great Gatsby</tns:string>
+            </tns:list_booksResult>
+        </tns:list_booksResponse>
+    </soap11env:Body>
+</soap11env:Envelope>

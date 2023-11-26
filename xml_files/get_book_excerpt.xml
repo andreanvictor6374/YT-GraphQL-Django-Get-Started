@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:ex="your.namespace.here">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ex:get_book_excerpt>
+            <ex:book_id>1</ex:book_id> <!-- Replace 1 with the ID of the book -->
+        </ex:get_book_excerpt>
+    </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:ex="your.namespace.here">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ex:list_books>
+            <ex:title_filter>The Great Gatsby</ex:title_filter>
+            <!-- Remove title_filter element to fetch all books -->
+        </ex:list_books>
+    </soapenv:Body>
+</soapenv:Envelope>
